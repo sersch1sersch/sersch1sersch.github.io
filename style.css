@@ -8,6 +8,7 @@
 :root {
     --color-key: rgb(17, 17, 49);
     --color-key-hover: #586fcad2;
+    --color-key-active: #a4e043d2;
     --color-key-modificator: #353536;
     --background-color-key-active: #091212;
 }
@@ -67,6 +68,7 @@ body {
 .key:active {
     top: 3px;
     left: 1px;
+    background-color: var( --color-key-active)
 }
 .active {
     top: 3px;
